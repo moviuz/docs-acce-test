@@ -1,17 +1,35 @@
 {
-  "name": "parser",
+  "name": "docx-accesibility-cheker",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "prestart": "npm install",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@barreljs/json-filter": "0.0.2",
+    "@xmldom/xmldom": "^0.8.2",
+    "advanced-json-path": "^1.0.8",
+    "connect": "^3.7.0",
+    "fast-xml-parser": "^4.0.7",
+    "file-system": "^2.2.2",
     "fs": "0.0.1-security",
+    "jsdom": "^19.0.0",
     "line-by-line": "^0.1.6",
+    "lodash": "^4.17.21",
     "node-stream-zip": "^1.7.0",
-    "xml2js": "^0.4.19"
+    "nodemon": "^2.0.16",
+    "pdfreader": "^2.0.0",
+    "txml": "^5.1.1",
+    "underscore": "^1.13.3",
+    "xlsx": "^0.18.5",
+    "xml-js": "^1.6.11",
+    "xml2js": "^0.4.19",
+    "xmldom": "^0.6.0",
+    "xpath": "0.0.32"
   }
 }
